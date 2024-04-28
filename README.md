@@ -16,6 +16,6 @@ All arrays except heights as the first dimension have a time scale in increments
 Checked ideas:
 1) common_model - good weather prediction accuracy is shown by the weather today will be the same as yesterday (no use);
 2) base_model - create coefficients between yesterday and today for each point on the map. Then we multiply yesterday's evening weather parameters by the coefficients;
-3) catboost - features were created for cottbus: the number of the hour in the day, the delta for the last one, two ..., five hours;
+3) catboost - features were created for catboost: the number of the hour in the day, the delta for the last one, two ..., five hours;
 4) elastic - use features of catboost (no use);
 5) mix_model - combining catboost and base_model. 
