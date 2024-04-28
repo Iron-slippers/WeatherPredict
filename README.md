@@ -1,5 +1,4 @@
 # WeatherPredict
-The decision of the hackathon on the topic of weather prediction based on data from the past.
 
 ### Setting the task
 Participants are asked to algorithmically predict weather conditions based on some measurement history. The teams perform the following tasks:
